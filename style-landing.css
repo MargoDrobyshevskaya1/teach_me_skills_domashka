@@ -1,3 +1,8 @@
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -336,7 +341,10 @@ h1 span {
 .expereince {
   margin-top: 23px;
 }
-
+.our-experience-text {
+  margin-bottom: 30px;
+  max-width: 525px;
+}
 .our-experience-text h2 {
   font-family: Work Sans;
   font-style: normal;
@@ -365,6 +373,7 @@ h1 span {
 
 .flex-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -377,6 +386,7 @@ h1 span {
 .our-experience-table {
   margin-left: 40px;
   margin-right: 40px;
+  max-width: 267px;
 }
 
 .our-experience-table-2 div {
@@ -463,6 +473,7 @@ h1 span {
 
 .our-experience-table-2 {
   display: flex;
+  max-width: 267px;
   flex-direction: column;
   flex: 1;
   margin-top: 23px;
